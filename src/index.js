@@ -11,7 +11,7 @@ const setupAndStartServer = async () => {
 
     app.listen(PORT, () => {
         console.log(`Server started at port ${PORT}`);
-        EmailService.sendBasicEmail("test@example.com","edwynbtrocks@gmail.com","this is subject to","thsi is the bosy oft he email");
+        // EmailService.sendBasicEmail("test@example.com","edwynbtrocks@gmail.com","this is subject to","thsi is the bosy oft he email");
     });
 }
 
